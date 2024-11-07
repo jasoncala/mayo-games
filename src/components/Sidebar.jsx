@@ -1,4 +1,4 @@
-export default async function Sidebar() {
+export default function Sidebar() {
     return (
         <aside>Sidebar</aside>
     )

@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Search from "@/components/Search"
 
 export default function Header() {
   return ( 
@@ -8,6 +9,7 @@ export default function Header() {
         <h1>Mayo Games</h1>
       </a>
 
+      <Search/>
 
       <nav className="flex gap-4 md:gap-6">
         <a href="#">
