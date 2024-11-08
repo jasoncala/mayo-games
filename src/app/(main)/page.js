@@ -1,4 +1,5 @@
 import HeroSlider from "../../components/Sliders/HeroSlider";
+import CategorySlider from "../../components/Sliders/CategorySlider";
 import { getGameCategories, getGamesByCategoryId, getGamesBySelectedCategories } from "../../lib/gameQueries";
 
 export default async function Home() {
@@ -16,6 +17,7 @@ export default async function Home() {
   return (
     <>
       <HeroSlider />
+      <CategorySlider categories={allCategoreis} />
 
       {/* <GameCategory category={multipleCategories[1]} /> */}
       {/* <pre>{JSON.stringify(multipleCategories, null, 2)}</pre> */}
