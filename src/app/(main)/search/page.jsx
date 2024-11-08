@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { getSearchResults } from "@/lib/gameQueries";
+import { getSearchResults } from "../../../lib/gameQueries";
 
 export default async function Page(req) {
   const searchQuery = req.searchParams.q;
