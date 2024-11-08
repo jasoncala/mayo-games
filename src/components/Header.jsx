@@ -1,6 +1,6 @@
 import Image from "next/image"
-import Search from "@/components/Search"
-import MobileNav from "@/components/MobileNav"
+import Search from "../components/Search"
+import MobileNav from "../components/MobileNav"
 
 export default function Header() {
   return ( 
