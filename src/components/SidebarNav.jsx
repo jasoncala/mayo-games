@@ -1,7 +1,7 @@
 "use client";
 import { usePathname } from "next/navigation";
 
-export default function SideBarNav({ categoryMenu }) {
+export default function SidebarNav({ categoryMenu }) {
   const activeSegment = usePathname();
 
   // Define the HomeIcon component
