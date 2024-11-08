@@ -1,5 +1,6 @@
 import Image from "next/image"
 import Search from "@/components/Search"
+import MobileNav from "@/components/MobileNav"
 
 export default function Header() {
   return ( 
@@ -19,6 +20,7 @@ export default function Header() {
             </svg>
         </a>
 
+        <MobileNav />
       </nav>
     </header>
   )
