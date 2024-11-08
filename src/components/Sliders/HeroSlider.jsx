@@ -40,7 +40,7 @@ export default function HeroSlider() {
             </h1>
             <p className="mb-6 max-w-[418px]">
               Relive the classics! Dive into our collection of retro and old games and
-              enjoy them for free. Start playing now!
+              enjoy them for free. Only games currently working are Mario(64) & Cadillacs and Dinos. Play now!
             </p>
             <a
               href="#"
@@ -61,8 +61,7 @@ export default function HeroSlider() {
             </div>
             <h1 className="font-display text-4xl lg:text-6xl mb-4">MARIO AVAILABLE</h1>
             <p className="mb-6 max-w-[418px]">
-              Relive the classics! Dive into our collection of retro and old games and
-              enjoy them for free. Start playing now!
+              Relive the classics! Only games currently working are Mario(64) & Cadillacs and Dinos. Play now!
             </p>
             <a
               href="#"
